@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: grey;
+}
+header nav {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+header nav .logo {
+  margin: 0 15rem;
+  margin-top: 0.75rem;
+  width: 5rem;
+}
+header nav button {
+  background: none;
+  border: none;
+  padding: 5rem 2rem 0 2rem;
+  font-size: 1.25em;
+  color: white;
+}
+header nav button:hover {
+  cursor: pointer;
+  border-top: 2px solid white;
+}
+header nav .social {
+  width: 2rem;
+  margin: 0 1.25rem;
+}
+header div {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  max-width: 60rem;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+header div button {
+  color: white;
+  background: none;
+  border: none;
+  padding: 2rem;
+  font-size: 0.5em;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+}
+header div button:hover {
+  cursor: pointer;
+  background: #000;
+}
+
+.rfood {
+  background: lightgrey;
+  display: flex;
+}
+.rfood div {
+  color: #080808;
+  text-align: justify;
+  font-size: 2.5em;
+  width: 30rem;
+  margin-top: 5rem;
+  margin-left: 30rem;
+}
+.rfood div h2 {
+  color: #ac841f;
+  text-align: center;
+}
+.rfood div p {
+  font-size: 1.25rem;
+}
+.rfood div .line {
+  width: 30rem;
+}
+.rfood div img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
